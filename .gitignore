@@ -1,0 +1,12 @@
+.pytest_cache/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.egg-info/
+my_run/
+.coverage
+htmlcov/
+.DS_Store
+Thumbs.db

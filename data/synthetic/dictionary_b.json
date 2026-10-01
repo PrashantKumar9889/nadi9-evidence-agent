@@ -1,0 +1,31 @@
+{
+  "id": "dictionary-b",
+  "author": "Community linguist Nia",
+  "date": "2026-01-20",
+  "reliability": 0.8,
+  "warning": "SYNTHETIC DEMO DATA. Nadi-9 is fictional.",
+  "entries": [
+    {"id": "B-i", "english": "i", "nadi9": "mi"},
+    {"id": "B-you-peer", "english": "you", "nadi9": "tu", "condition": "addressee_not_higher"},
+    {"id": "B-you-high", "english": "you", "nadi9": "shu", "condition": "addressee_higher"},
+    {"id": "B-he", "english": "he", "nadi9": "la"},
+    {"id": "B-brother", "english": "elder brother", "nadi9": "orun"},
+    {"id": "B-home", "english": "home", "nadi9": "dora"},
+    {"id": "B-come", "english": "come", "nadi9": "sol"},
+    {"id": "B-eat", "english": "eat", "nadi9": "kora"},
+    {"id": "B-want", "english": "want", "nadi9": "hila"},
+    {"id": "B-see", "english": "see", "nadi9": "vira"},
+    {"id": "B-food", "english": "food", "nadi9": "maka"},
+    {"id": "B-water", "english": "water", "nadi9": "nira"},
+    {"id": "B-good", "english": "good", "nadi9": "senu"},
+    {"id": "B-bad", "english": "bad", "nadi9": "vek"},
+    {"id": "B-now", "english": "now", "nadi9": "yali"},
+    {"id": "B-tomorrow", "english": "tomorrow", "nadi9": "yorami"},
+    {"id": "B-yes", "english": "yes", "nadi9": "hae"},
+    {"id": "B-thanks", "english": "thank you", "nadi9": "sela"},
+    {"id": "B-friend", "english": "friend", "nadi9": "kari", "condition": "kin"},
+    {"id": "B-back", "english": "back", "nadi9": "reth"},
+    {"id": "B-is", "english": "is", "nadi9": "ri"},
+    {"id": "B-phone", "english": "phone", "nadi9": "phone"}
+  ]
+}

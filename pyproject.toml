@@ -1,0 +1,16 @@
+[project]
+name = "nadi9-agent"
+version = "0.1.0"
+description = "Evidence-grounded subtitle agent for the fictional Nadi-9 dialect."
+requires-python = ">=3.11"
+readme = "README.md"
+
+[project.scripts]
+nadi9 = "nadi9.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

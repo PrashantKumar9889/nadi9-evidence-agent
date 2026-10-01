@@ -1,0 +1,307 @@
+{
+  "warning": "SYNTHETIC DEMO DATA. Nadi-9 is fictional. Two of these approved-looking examples are wrong. The agent must notice.",
+  "author": "Synthetic linguist panel",
+  "date": "2026-01-10",
+  "reliability": 0.9,
+  "examples": [
+    {
+      "id": "E01",
+      "source": "I eat food.",
+      "nadi9": "mi maka korara",
+      "speaker": "Rafi",
+      "addressee": "Lina",
+      "speaker_status": "peer",
+      "addressee_status": "peer",
+      "scene": "kitchen",
+      "tokens": [
+        {"src": "I", "lemma": "i", "nadi": "mi", "pos": "pronoun"},
+        {"src": "food", "lemma": "food", "nadi": "maka", "pos": "noun"},
+        {"src": "eat", "lemma": "eat", "nadi": "kora", "pos": "verb", "tense": "present", "surface": "korara"}
+      ]
+    },
+    {
+      "id": "E02",
+      "source": "Elder brother came home.",
+      "nadi9": "orun dora solva",
+      "speaker": "Mira",
+      "addressee": "Lina",
+      "speaker_status": "peer",
+      "addressee_status": "peer",
+      "scene": "doorway",
+      "tokens": [
+        {"src": "Elder brother", "lemma": "elder brother", "nadi": "orun", "pos": "kinship"},
+        {"src": "home", "lemma": "home", "nadi": "dora", "pos": "noun"},
+        {"src": "came", "lemma": "come", "nadi": "sol", "pos": "verb", "tense": "past", "surface": "solva"}
+      ]
+    },
+    {
+      "id": "E03",
+      "source": "I want water.",
+      "nadi9": "mi nira hilara",
+      "speaker": "Mira",
+      "addressee": "Lina",
+      "speaker_status": "peer",
+      "addressee_status": "peer",
+      "scene": "kitchen",
+      "tokens": [
+        {"src": "I", "lemma": "i", "nadi": "mi", "pos": "pronoun"},
+        {"src": "water", "lemma": "water", "nadi": "nira", "pos": "noun"},
+        {"src": "want", "lemma": "want", "nadi": "hila", "pos": "verb", "tense": "present", "surface": "hilara"}
+      ]
+    },
+    {
+      "id": "E04",
+      "source": "Water is good.",
+      "nadi9": "nira senu ri",
+      "speaker": "Sera",
+      "addressee": "Mira",
+      "speaker_status": "higher",
+      "addressee_status": "lower",
+      "scene": "kitchen",
+      "tokens": [
+        {"src": "Water", "lemma": "water", "nadi": "nira", "pos": "noun"},
+        {"src": "good", "lemma": "good", "nadi": "senu", "pos": "adjective"},
+        {"src": "is", "lemma": "is", "nadi": "ri", "pos": "copula"}
+      ]
+    },
+    {
+      "id": "E05",
+      "source": "Did you eat?",
+      "nadi9": "tu korava ke",
+      "speaker": "Lina",
+      "addressee": "Rafi",
+      "speaker_status": "peer",
+      "addressee_status": "peer",
+      "scene": "kitchen",
+      "tokens": [
+        {"src": "you", "lemma": "you", "nadi": "tu", "pos": "pronoun"},
+        {"src": "eat", "lemma": "eat", "nadi": "kora", "pos": "verb", "tense": "past", "surface": "korava"},
+        {"src": "?", "lemma": "question", "nadi": "ke", "pos": "particle", "feature": "question"}
+      ]
+    },
+    {
+      "id": "E06",
+      "source": "Did you come?",
+      "nadi9": "shu sha solva ke",
+      "speaker": "Mira",
+      "addressee": "Devan",
+      "speaker_status": "lower",
+      "addressee_status": "higher",
+      "scene": "doorway",
+      "tokens": [
+        {"src": "you", "lemma": "you", "nadi": "shu", "pos": "pronoun"},
+        {"src": "[respect]", "lemma": "respect", "nadi": "sha", "pos": "particle", "feature": "respect"},
+        {"src": "come", "lemma": "come", "nadi": "sol", "pos": "verb", "tense": "past", "surface": "solva"},
+        {"src": "?", "lemma": "question", "nadi": "ke", "pos": "particle", "feature": "question"}
+      ]
+    },
+    {
+      "id": "E07",
+      "source": "I came back.",
+      "nadi9": "mi solva reth",
+      "speaker": "Devan",
+      "addressee": "Mira",
+      "speaker_status": "higher",
+      "addressee_status": "lower",
+      "scene": "doorway",
+      "tokens": [
+        {"src": "I", "lemma": "i", "nadi": "mi", "pos": "pronoun"},
+        {"src": "came", "lemma": "come", "nadi": "sol", "pos": "verb", "tense": "past", "surface": "solva"},
+        {"src": "back", "lemma": "back", "nadi": "reth", "pos": "postverb"}
+      ]
+    },
+    {
+      "id": "E08",
+      "source": "I did not eat food.",
+      "nadi9": "mi maka na korava",
+      "speaker": "Devan",
+      "addressee": "Mira",
+      "speaker_status": "higher",
+      "addressee_status": "lower",
+      "scene": "kitchen",
+      "tokens": [
+        {"src": "I", "lemma": "i", "nadi": "mi", "pos": "pronoun"},
+        {"src": "food", "lemma": "food", "nadi": "maka", "pos": "noun"},
+        {"src": "not", "lemma": "not", "nadi": "na", "pos": "particle", "feature": "negation"},
+        {"src": "eat", "lemma": "eat", "nadi": "kora", "pos": "verb", "tense": "past", "surface": "korava"}
+      ]
+    },
+    {
+      "id": "E09",
+      "source": "I will see you tomorrow.",
+      "nadi9": "mi tu yorami virami",
+      "speaker": "Devan",
+      "addressee": "Mira",
+      "speaker_status": "higher",
+      "addressee_status": "lower",
+      "scene": "doorway",
+      "tokens": [
+        {"src": "I", "lemma": "i", "nadi": "mi", "pos": "pronoun"},
+        {"src": "you", "lemma": "you", "nadi": "tu", "pos": "pronoun"},
+        {"src": "tomorrow", "lemma": "tomorrow", "nadi": "yorami", "pos": "time"},
+        {"src": "see", "lemma": "see", "nadi": "vira", "pos": "verb", "tense": "future", "surface": "virami"}
+      ]
+    },
+    {
+      "id": "E10",
+      "source": "Come home now.",
+      "nadi9": "dora yali sol",
+      "speaker": "Sera",
+      "addressee": "Mira",
+      "speaker_status": "higher",
+      "addressee_status": "lower",
+      "scene": "doorway",
+      "tokens": [
+        {"src": "home", "lemma": "home", "nadi": "dora", "pos": "noun"},
+        {"src": "now", "lemma": "now", "nadi": "yali", "pos": "time"},
+        {"src": "Come", "lemma": "come", "nadi": "sol", "pos": "verb", "tense": "imperative", "surface": "sol"}
+      ]
+    },
+    {
+      "id": "E11",
+      "source": "Thank you.",
+      "nadi9": "sela",
+      "speaker": "Mira",
+      "addressee": "Devan",
+      "speaker_status": "lower",
+      "addressee_status": "higher",
+      "scene": "kitchen",
+      "tokens": [
+        {"src": "Thank you", "lemma": "thank you", "nadi": "sela", "pos": "interjection"}
+      ]
+    },
+    {
+      "id": "E12",
+      "source": "He is a good friend.",
+      "nadi9": "la senu kari ri",
+      "speaker": "Devan",
+      "addressee": "Mira",
+      "speaker_status": "higher",
+      "addressee_status": "lower",
+      "scene": "kin visit",
+      "tokens": [
+        {"src": "He", "lemma": "he", "nadi": "la", "pos": "pronoun"},
+        {"src": "good", "lemma": "good", "nadi": "senu", "pos": "adjective"},
+        {"src": "friend", "lemma": "friend", "nadi": "kari", "pos": "noun", "condition": "kin"},
+        {"src": "is", "lemma": "is", "nadi": "ri", "pos": "copula"}
+      ]
+    },
+    {
+      "id": "E13",
+      "source": "Yes.",
+      "nadi9": "hae",
+      "speaker": "Devan",
+      "addressee": "Mira",
+      "speaker_status": "higher",
+      "addressee_status": "lower",
+      "scene": "doorway",
+      "tokens": [
+        {"src": "Yes", "lemma": "yes", "nadi": "hae", "pos": "interjection"}
+      ]
+    },
+    {
+      "id": "E14",
+      "source": "The phone is bad.",
+      "nadi9": "phone vek ri",
+      "speaker": "Devan",
+      "addressee": "Mira",
+      "speaker_status": "higher",
+      "addressee_status": "lower",
+      "scene": "kitchen",
+      "tokens": [
+        {"src": "phone", "lemma": "phone", "nadi": "phone", "pos": "noun"},
+        {"src": "bad", "lemma": "bad", "nadi": "vek", "pos": "adjective"},
+        {"src": "is", "lemma": "is", "nadi": "ri", "pos": "copula"}
+      ]
+    },
+    {
+      "id": "E15",
+      "source": "A friend came.",
+      "nadi9": "kari solva",
+      "speaker": "Lina",
+      "addressee": "Rafi",
+      "speaker_status": "peer",
+      "addressee_status": "peer",
+      "scene": "kin visit",
+      "tokens": [
+        {"src": "friend", "lemma": "friend", "nadi": "kari", "pos": "noun", "condition": "kin"},
+        {"src": "came", "lemma": "come", "nadi": "sol", "pos": "verb", "tense": "past", "surface": "solva"}
+      ]
+    },
+    {
+      "id": "E16",
+      "source": "Will you come?",
+      "nadi9": "shu sha solmi ke",
+      "speaker": "Mira",
+      "addressee": "Sera",
+      "speaker_status": "lower",
+      "addressee_status": "higher",
+      "scene": "doorway",
+      "tokens": [
+        {"src": "you", "lemma": "you", "nadi": "shu", "pos": "pronoun"},
+        {"src": "[respect]", "lemma": "respect", "nadi": "sha", "pos": "particle", "feature": "respect"},
+        {"src": "come", "lemma": "come", "nadi": "sol", "pos": "verb", "tense": "future", "surface": "solmi"},
+        {"src": "?", "lemma": "question", "nadi": "ke", "pos": "particle", "feature": "question"}
+      ]
+    },
+    {
+      "id": "E17",
+      "source": "I do not want water.",
+      "nadi9": "mi nira na hilara",
+      "speaker": "Mira",
+      "addressee": "Lina",
+      "speaker_status": "peer",
+      "addressee_status": "peer",
+      "scene": "kitchen",
+      "tokens": [
+        {"src": "I", "lemma": "i", "nadi": "mi", "pos": "pronoun"},
+        {"src": "water", "lemma": "water", "nadi": "nira", "pos": "noun"},
+        {"src": "not", "lemma": "not", "nadi": "na", "pos": "particle", "feature": "negation"},
+        {"src": "want", "lemma": "want", "nadi": "hila", "pos": "verb", "tense": "present", "surface": "hilara"}
+      ]
+    },
+    {
+      "id": "E18",
+      "source": "Thank you, elder brother.",
+      "nadi9": "sela orun",
+      "speaker": "Mira",
+      "addressee": "Devan",
+      "speaker_status": "lower",
+      "addressee_status": "higher",
+      "scene": "kitchen",
+      "tokens": [
+        {"src": "Thank you", "lemma": "thank you", "nadi": "sela", "pos": "interjection"},
+        {"src": "elder brother", "lemma": "elder brother", "nadi": "orun", "pos": "kinship"}
+      ]
+    },
+    {
+      "id": "E19",
+      "source": "Water is good.",
+      "nadi9": "zorblax senu ri",
+      "speaker": "Vendor clerk",
+      "addressee": "Mira",
+      "speaker_status": "peer",
+      "addressee_status": "peer",
+      "scene": "kitchen",
+      "tokens": [
+        {"src": "Water", "lemma": "water", "nadi": "zorblax", "pos": "noun"},
+        {"src": "good", "lemma": "good", "nadi": "senu", "pos": "adjective"},
+        {"src": "is", "lemma": "is", "nadi": "ri", "pos": "copula"}
+      ]
+    },
+    {
+      "id": "E20",
+      "source": "Elder brother came.",
+      "nadi9": "bhairo solva",
+      "speaker": "Vendor clerk",
+      "addressee": "Mira",
+      "speaker_status": "peer",
+      "addressee_status": "peer",
+      "scene": "doorway",
+      "tokens": [
+        {"src": "Elder brother", "lemma": "elder brother", "nadi": "bhairo", "pos": "kinship"},
+        {"src": "came", "lemma": "come", "nadi": "sol", "pos": "verb", "tense": "past", "surface": "solva"}
+      ]
+    }
+  ]
+}

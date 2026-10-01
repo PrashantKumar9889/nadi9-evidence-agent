@@ -1,0 +1,78 @@
+{
+  "dataset": "synthetic-nadi-9-demo",
+  "warning": "SYNTHETIC DEMO DATA. Nadi-9 is fictional. This is not a real language and must not be treated as field data.",
+  "interview_reliability": 0.6,
+  "interviews": [
+    "int1_family.json",
+    "int2_work.json",
+    "int3_humour.json",
+    "int4_status.json",
+    "int5_malicious.json"
+  ],
+  "sources": [
+    {
+      "id": "examples",
+      "path": "examples.json",
+      "author": "Synthetic linguist panel",
+      "date": "2026-01-10",
+      "scope": "20 short source-to-Nadi-9 examples",
+      "reliability": 0.9
+    },
+    {
+      "id": "grammar",
+      "path": "grammar_note.md",
+      "author": "Training desk",
+      "date": "2026-02-01",
+      "scope": "word order, tense, negation, respect; question particle left open",
+      "reliability": 0.75
+    },
+    {
+      "id": "dictionary-a",
+      "path": "dictionary_a.json",
+      "author": "Earlier vendor",
+      "date": "2025-11-01",
+      "scope": "broad vendor list, reliability unknown",
+      "reliability": 0.25
+    },
+    {
+      "id": "dictionary-b",
+      "path": "dictionary_b.json",
+      "author": "Community linguist Nia",
+      "date": "2026-01-20",
+      "scope": "smaller maintained list",
+      "reliability": 0.8
+    },
+    {
+      "id": "experts",
+      "path": "experts.json",
+      "author": "Three specialists",
+      "date": "2026-02-12",
+      "scope": "notes, not a full grammar",
+      "reliability": 0.74
+    },
+    {
+      "id": "viewers",
+      "path": "viewers.json",
+      "author": "Pilot audience",
+      "date": "2026-02-20",
+      "scope": "mixed signal and noise",
+      "reliability": 0.35
+    },
+    {
+      "id": "episode",
+      "path": "episode.json",
+      "author": "Episode desk",
+      "date": "2026-02-28",
+      "scope": "one short scene with speakers and timecodes",
+      "reliability": 1.0
+    },
+    {
+      "id": "correction",
+      "path": "correction.json",
+      "author": "Linguist Asha",
+      "date": "2026-03-01",
+      "scope": "one correction that arrives after the first pass",
+      "reliability": 0.95
+    }
+  ]
+}

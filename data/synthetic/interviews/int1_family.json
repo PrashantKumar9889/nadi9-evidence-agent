@@ -1,0 +1,9 @@
+{
+  "id": "INT-1",
+  "audio": "int1_family.wav",
+  "speaker": "Grandmother Rafi",
+  "topic": "family",
+  "date": "2026-02-10",
+  "warning": "SYNTHETIC transcript. There is no real audio.",
+  "transcript": "EN:father NADI:apa\nEN:mother NADI:ama\nWe talk about family at the table."
+}

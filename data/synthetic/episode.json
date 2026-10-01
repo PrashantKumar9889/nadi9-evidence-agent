@@ -1,0 +1,138 @@
+{
+  "title": "Return at the doorway (synthetic pilot scene)",
+  "warning": "SYNTHETIC DEMO DATA. Nadi-9 is fictional.",
+  "cues": [
+    {
+      "id": "S001",
+      "start": "00:00:01,000",
+      "end": "00:00:04,200",
+      "speaker": "Mira",
+      "addressee": "Devan",
+      "speaker_status": "lower",
+      "addressee_status": "higher",
+      "scene": "doorway",
+      "source": "You came back, elder brother?"
+    },
+    {
+      "id": "S002",
+      "start": "00:00:04,400",
+      "end": "00:00:07,200",
+      "speaker": "Devan",
+      "addressee": "Mira",
+      "speaker_status": "higher",
+      "addressee_status": "lower",
+      "scene": "doorway",
+      "source": "Yes. I came home."
+    },
+    {
+      "id": "S003",
+      "start": "00:00:07,400",
+      "end": "00:00:10,400",
+      "speaker": "Mira",
+      "addressee": "Devan",
+      "speaker_status": "lower",
+      "addressee_status": "higher",
+      "scene": "kitchen",
+      "source": "Did you eat food?"
+    },
+    {
+      "id": "S004",
+      "start": "00:00:10,600",
+      "end": "00:00:13,200",
+      "speaker": "Devan",
+      "addressee": "Mira",
+      "speaker_status": "higher",
+      "addressee_status": "lower",
+      "scene": "kitchen",
+      "source": "I did not eat."
+    },
+    {
+      "id": "S005",
+      "start": "00:00:13,400",
+      "end": "00:00:16,200",
+      "speaker": "Sera",
+      "addressee": "Mira",
+      "speaker_status": "higher",
+      "addressee_status": "lower",
+      "scene": "doorway",
+      "source": "Come home now."
+    },
+    {
+      "id": "S006",
+      "start": "00:00:16,400",
+      "end": "00:00:19,000",
+      "speaker": "Mira",
+      "addressee": "Devan",
+      "speaker_status": "lower",
+      "addressee_status": "higher",
+      "scene": "kitchen",
+      "source": "Thank you, elder brother."
+    },
+    {
+      "id": "S007",
+      "start": "00:00:19,200",
+      "end": "00:00:22,200",
+      "speaker": "Devan",
+      "addressee": "Mira",
+      "speaker_status": "higher",
+      "addressee_status": "lower",
+      "scene": "kitchen",
+      "source": "The wifi is bad."
+    },
+    {
+      "id": "S008",
+      "start": "00:00:22,400",
+      "end": "00:00:25,600",
+      "speaker": "Mira",
+      "addressee": "Devan",
+      "speaker_status": "lower",
+      "addressee_status": "higher",
+      "scene": "kitchen",
+      "source": "Please forgive me."
+    },
+    {
+      "id": "S009",
+      "start": "00:00:25,800",
+      "end": "00:00:29,000",
+      "speaker": "Devan",
+      "addressee": "Mira",
+      "speaker_status": "higher",
+      "addressee_status": "lower",
+      "scene": "doorway",
+      "source": "I will see you tomorrow."
+    },
+    {
+      "id": "S010",
+      "start": "00:00:29,200",
+      "end": "00:00:32,500",
+      "speaker": "Mira",
+      "addressee": "Sera",
+      "speaker_status": "lower",
+      "addressee_status": "higher",
+      "scene": "doorway",
+      "source": "Will you come tomorrow?"
+    },
+    {
+      "id": "S011",
+      "start": "00:00:32,700",
+      "end": "00:00:35,400",
+      "speaker": "Mira",
+      "addressee": "Lina",
+      "speaker_status": "peer",
+      "addressee_status": "peer",
+      "scene": "kitchen",
+      "source": "I want water."
+    },
+    {
+      "id": "S012",
+      "start": "00:00:35,600",
+      "end": "00:00:38,800",
+      "speaker": "Devan",
+      "addressee": "Mira",
+      "speaker_status": "higher",
+      "addressee_status": "lower",
+      "scene": "kitchen",
+      "source": "He is a good friend."
+    }
+  ]
+}

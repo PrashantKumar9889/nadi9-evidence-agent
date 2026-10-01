@@ -1,0 +1,9 @@
+{
+  "id": "INT-4",
+  "audio": "int4_status.wav",
+  "speaker": "Elder Sera",
+  "topic": "status",
+  "date": "2026-02-12",
+  "warning": "SYNTHETIC transcript. There is no real audio.",
+  "transcript": "COND:addressee_higher EN:you NADI:shu\nCOND:addressee_not_higher EN:you NADI:tu\nThe choice depends on who is listening."
+}

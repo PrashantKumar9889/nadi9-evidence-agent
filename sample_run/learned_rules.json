@@ -1,0 +1,453 @@
+{
+  "dataset": "SYNTHETIC DEMO. Nadi-9 is fictional and is not a real language.",
+  "outlier_examples": [
+    "E19",
+    "E20"
+  ],
+  "quarantined": [
+    "A-044",
+    "V2",
+    "INT-5:line:2"
+  ],
+  "rules": [
+    {
+      "id": "word-order",
+      "statement": "Content words stay before the verb.",
+      "status": "accepted",
+      "value": null,
+      "support": [
+        "example:E01",
+        "example:E02",
+        "example:E03",
+        "example:E04",
+        "example:E05",
+        "example:E06",
+        "example:E07",
+        "example:E08"
+      ],
+      "counterexamples": [],
+      "confidence": 0.8,
+      "reason": "",
+      "resolved_by": null,
+      "prior_status": null
+    },
+    {
+      "id": "negation",
+      "statement": "na sits immediately before the verb.",
+      "status": "accepted",
+      "value": null,
+      "support": [
+        "example:E01",
+        "example:E02",
+        "example:E03",
+        "example:E04",
+        "example:E05",
+        "example:E06",
+        "example:E07",
+        "example:E08"
+      ],
+      "counterexamples": [],
+      "confidence": 0.8,
+      "reason": "",
+      "resolved_by": null,
+      "prior_status": null
+    },
+    {
+      "id": "respect",
+      "statement": "sha sits immediately before the verb when the speaker is lower status than the addressee.",
+      "status": "accepted",
+      "value": null,
+      "support": [
+        "example:E01",
+        "example:E02",
+        "example:E03",
+        "example:E04",
+        "example:E05",
+        "example:E06",
+        "example:E07",
+        "example:E08"
+      ],
+      "counterexamples": [],
+      "confidence": 0.8,
+      "reason": "",
+      "resolved_by": null,
+      "prior_status": null
+    },
+    {
+      "id": "back",
+      "statement": "reth sits immediately after the verb.",
+      "status": "accepted",
+      "value": null,
+      "support": [
+        "example:E01",
+        "example:E02",
+        "example:E03",
+        "example:E04",
+        "example:E05",
+        "example:E06",
+        "example:E07",
+        "example:E08"
+      ],
+      "counterexamples": [],
+      "confidence": 0.8,
+      "reason": "",
+      "resolved_by": null,
+      "prior_status": null
+    },
+    {
+      "id": "time-place",
+      "statement": "Time words sit before the verb.",
+      "status": "accepted",
+      "value": null,
+      "support": [
+        "example:E01",
+        "example:E02",
+        "example:E03",
+        "example:E04",
+        "example:E05",
+        "example:E06",
+        "example:E07",
+        "example:E08"
+      ],
+      "counterexamples": [],
+      "confidence": 0.8,
+      "reason": "",
+      "resolved_by": null,
+      "prior_status": null
+    },
+    {
+      "id": "tense-present",
+      "statement": "present uses suffix 'ra' on the verb stem.",
+      "status": "accepted",
+      "value": "ra",
+      "support": [
+        "grammar:tense-present"
+      ],
+      "counterexamples": [],
+      "confidence": 0.8,
+      "reason": "",
+      "resolved_by": null,
+      "prior_status": null
+    },
+    {
+      "id": "tense-past",
+      "statement": "past uses suffix 'va' on the verb stem.",
+      "status": "accepted",
+      "value": "va",
+      "support": [
+        "grammar:tense-past"
+      ],
+      "counterexamples": [],
+      "confidence": 0.8,
+      "reason": "",
+      "resolved_by": null,
+      "prior_status": null
+    },
+    {
+      "id": "tense-future",
+      "statement": "future uses suffix 'mi' on the verb stem.",
+      "status": "accepted",
+      "value": "mi",
+      "support": [
+        "grammar:tense-future"
+      ],
+      "counterexamples": [],
+      "confidence": 0.8,
+      "reason": "",
+      "resolved_by": null,
+      "prior_status": null
+    },
+    {
+      "id": "tense-imperative",
+      "statement": "imperative uses suffix '' on the verb stem.",
+      "status": "accepted",
+      "value": "",
+      "support": [
+        "grammar:tense-imperative"
+      ],
+      "counterexamples": [],
+      "confidence": 0.8,
+      "reason": "",
+      "resolved_by": null,
+      "prior_status": null
+    },
+    {
+      "id": "question-particle",
+      "statement": "Use ke for questions. Expert 2 copied Dictionary A. ki is rejected.",
+      "status": "accepted",
+      "value": "ke",
+      "support": [
+        "example:questions",
+        "expert:EX1:question-particle",
+        "correction:C01"
+      ],
+      "counterexamples": [],
+      "confidence": 0.8,
+      "reason": "Reliable sources agree.",
+      "resolved_by": "correction:C01",
+      "prior_status": "unresolved"
+    },
+    {
+      "id": "mock-sov",
+      "statement": "Word order is subject-object-verb.",
+      "status": "not_adopted",
+      "value": null,
+      "support": [],
+      "counterexamples": [],
+      "confidence": 0.0,
+      "reason": "Examples already decide word order. A model vote is not a source.",
+      "resolved_by": null,
+      "prior_status": null
+    },
+    {
+      "id": "mock-plural-zo",
+      "statement": "Every noun takes plural suffix -zo.",
+      "status": "rejected",
+      "value": null,
+      "support": [],
+      "counterexamples": [],
+      "confidence": 0.0,
+      "reason": "The model proposed this rule, but no example, dictionary, or grammar note supports -zo.",
+      "resolved_by": null,
+      "prior_status": null
+    }
+  ],
+  "lexicon": [
+    {
+      "lemma": "bad",
+      "condition": null,
+      "nadi": "vek",
+      "pos": "adjective",
+      "evidence": [
+        "example:E14",
+        "dictionary:B:B-bad"
+      ]
+    },
+    {
+      "lemma": "come",
+      "condition": null,
+      "nadi": "sol",
+      "pos": "verb",
+      "evidence": [
+        "example:E02",
+        "example:E06",
+        "example:E07",
+        "example:E10",
+        "example:E15",
+        "example:E16",
+        "dictionary:B:B-come"
+      ]
+    },
+    {
+      "lemma": "eat",
+      "condition": null,
+      "nadi": "kora",
+      "pos": "verb",
+      "evidence": [
+        "example:E01",
+        "example:E05",
+        "example:E08",
+        "dictionary:B:B-eat"
+      ]
+    },
+    {
+      "lemma": "elder brother",
+      "condition": null,
+      "nadi": "orun",
+      "pos": "kinship",
+      "evidence": [
+        "example:E02",
+        "example:E18",
+        "dictionary:B:B-brother"
+      ]
+    },
+    {
+      "lemma": "food",
+      "condition": null,
+      "nadi": "maka",
+      "pos": "noun",
+      "evidence": [
+        "example:E01",
+        "example:E08",
+        "dictionary:B:B-food"
+      ]
+    },
+    {
+      "lemma": "friend",
+      "condition": "kin",
+      "nadi": "kari",
+      "pos": "noun",
+      "evidence": [
+        "example:E12",
+        "example:E15",
+        "dictionary:B:B-friend"
+      ]
+    },
+    {
+      "lemma": "good",
+      "condition": null,
+      "nadi": "senu",
+      "pos": "adjective",
+      "evidence": [
+        "example:E04",
+        "example:E12",
+        "dictionary:B:B-good"
+      ]
+    },
+    {
+      "lemma": "he",
+      "condition": null,
+      "nadi": "la",
+      "pos": "pronoun",
+      "evidence": [
+        "example:E12",
+        "dictionary:B:B-he"
+      ]
+    },
+    {
+      "lemma": "home",
+      "condition": null,
+      "nadi": "dora",
+      "pos": "noun",
+      "evidence": [
+        "example:E02",
+        "example:E10",
+        "dictionary:B:B-home"
+      ]
+    },
+    {
+      "lemma": "i",
+      "condition": null,
+      "nadi": "mi",
+      "pos": "pronoun",
+      "evidence": [
+        "example:E01",
+        "example:E03",
+        "example:E07",
+        "example:E08",
+        "example:E09",
+        "example:E17",
+        "dictionary:B:B-i"
+      ]
+    },
+    {
+      "lemma": "now",
+      "condition": null,
+      "nadi": "yali",
+      "pos": "time",
+      "evidence": [
+        "example:E10",
+        "dictionary:B:B-now"
+      ]
+    },
+    {
+      "lemma": "phone",
+      "condition": null,
+      "nadi": "phone",
+      "pos": "noun",
+      "evidence": [
+        "example:E14",
+        "dictionary:B:B-phone"
+      ]
+    },
+    {
+      "lemma": "see",
+      "condition": null,
+      "nadi": "vira",
+      "pos": "verb",
+      "evidence": [
+        "example:E09",
+        "dictionary:B:B-see"
+      ]
+    },
+    {
+      "lemma": "thank you",
+      "condition": null,
+      "nadi": "sela",
+      "pos": "interjection",
+      "evidence": [
+        "example:E11",
+        "example:E18",
+        "dictionary:B:B-thanks"
+      ]
+    },
+    {
+      "lemma": "tomorrow",
+      "condition": null,
+      "nadi": "yorami",
+      "pos": "time",
+      "evidence": [
+        "example:E09",
+        "dictionary:B:B-tomorrow"
+      ]
+    },
+    {
+      "lemma": "want",
+      "condition": null,
+      "nadi": "hila",
+      "pos": "verb",
+      "evidence": [
+        "example:E03",
+        "example:E17",
+        "dictionary:B:B-want"
+      ]
+    },
+    {
+      "lemma": "water",
+      "condition": null,
+      "nadi": "nira",
+      "pos": "noun",
+      "evidence": [
+        "example:E03",
+        "example:E04",
+        "example:E17",
+        "dictionary:B:B-water"
+      ]
+    },
+    {
+      "lemma": "yes",
+      "condition": null,
+      "nadi": "hae",
+      "pos": "interjection",
+      "evidence": [
+        "example:E13",
+        "dictionary:B:B-yes"
+      ]
+    },
+    {
+      "lemma": "you",
+      "condition": "addressee_higher",
+      "nadi": "shu",
+      "pos": "pronoun",
+      "evidence": [
+        "example:E06",
+        "example:E16",
+        "dictionary:B:B-you-high"
+      ]
+    },
+    {
+      "lemma": "you",
+      "condition": "addressee_not_higher",
+      "nadi": "tu",
+      "pos": "pronoun",
+      "evidence": [
+        "example:E05",
+        "example:E09",
+        "dictionary:B:B-you-peer"
+      ]
+    }
+  ],
+  "context_splits": {
+    "friend": {
+      "context": "kin vs non-kin",
+      "forms": {
+        "kin": "kari",
+        "non_kin": "luma"
+      },
+      "evidence": [
+        "expert:EX2",
+        "dictionary:A:A-friend"
+      ]
+    }
+  }
+}

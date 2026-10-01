@@ -1,0 +1,27 @@
+[
+  {
+    "subtitle_id": "S008",
+    "source_text": "Please forgive me.",
+    "reason": "No attested Nadi-9 form for: please, forgive, me. The line was left untranslated instead of inventing a word.",
+    "review_question": "What is the attested Nadi-9 form, if any, for: please, forgive, me?",
+    "conflicts": [],
+    "confidence": 0.22,
+    "evidence": []
+  },
+  {
+    "subtitle_id": "S012",
+    "source_text": "He is a good friend.",
+    "reason": "Reliable sources do not agree, or a required context field is missing. No Nadi-9 wording was chosen.",
+    "review_question": "Is this friend kin (kari) or non-kin (luma)? The cue does not say which relationship applies.",
+    "conflicts": [
+      "friend depends on kin vs non-kin (kin=kari, non_kin=luma)"
+    ],
+    "confidence": 0.36,
+    "evidence": [
+      "example:E12",
+      "dictionary:B:B-he",
+      "example:E04",
+      "dictionary:B:B-good"
+    ]
+  }
+]

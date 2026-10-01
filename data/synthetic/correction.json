@@ -1,0 +1,10 @@
+{
+  "id": "C01",
+  "author": "Linguist Asha",
+  "date": "2026-03-01",
+  "warning": "SYNTHETIC DEMO DATA. This correction arrives after the first subtitle pass.",
+  "message": "Use ke for questions. Expert 2 copied Dictionary A. ki is rejected.",
+  "affects_features": ["question"],
+  "set_rule": {"id": "question-particle", "value": "ke"},
+  "drop_claims": ["expert:EX2:question-particle", "dictionary:A:question"]
+}
